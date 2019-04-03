@@ -2,7 +2,7 @@
 
 Generate AST json files from applying *babel/parse* to a recursive directory exploration.
 
-###Requirements
+### Requirements
 - @babel/parse
 - ts-node
 
