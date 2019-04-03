@@ -1,0 +1,30 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "dependencies": {
+    "@types/prettyjson": "0.0.29",
+    "babel": "^6.23.0",
+    "prettyjson": "^1.2.1",
+    "walker": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/traverse": "^7.4.3",
+    "@types/node": "^11.13.0",
+    "babel-cli": "^6.26.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parse": "ts-node --max-old-space-size=8192 local.ts",
+    "extract": "ts-node extractor.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
