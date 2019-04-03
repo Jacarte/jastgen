@@ -26,7 +26,8 @@ interface ITree{
 
 
 
-- ```js
+- Create a file (local.ts) 
+  ```js
     //Typescript
 
     import extract from './extractor'
@@ -37,6 +38,7 @@ interface ITree{
 
 ```
 
+- Run script
 ```
-npm run parse
+    npm run parse
 ```
