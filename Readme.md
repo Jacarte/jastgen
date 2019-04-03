@@ -39,6 +39,6 @@ interface ITree{
 ```
 
 - Run script
-```
+```sh
     npm run parse
 ```
