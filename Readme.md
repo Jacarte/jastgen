@@ -6,7 +6,7 @@ Generate AST json files from applying *babel/parse* to a recursive directory exp
 - @babel/parse
 - ts-node
 
-- package.json ??
+- *npm i* ?
 
 
 ### AST json file structure
