@@ -24,7 +24,9 @@ interface ITree{
 
 ## Script usage
 
-```js
+
+
+- ```js
 //Typescript
 
 import extract from './extractor'
