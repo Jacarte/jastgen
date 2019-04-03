@@ -14,3 +14,16 @@ interface ITree{
     isTerminal: boolean
 }
 ```
+
+## Script usage
+
+```js
+//Typescript
+
+import extract from './extractor'
+
+const path = 'YOUR_REPOSITORIES_PATH'
+
+extract(path)
+
+```
