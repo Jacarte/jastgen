@@ -27,13 +27,13 @@ interface ITree{
 
 
 - ```js
-//Typescript
+    //Typescript
 
-import extract from './extractor'
+    import extract from './extractor'
 
-const path = 'YOUR_REPOSITORIES_PATH'
+    const path = 'YOUR_REPOSITORIES_PATH'
 
-extract(path)
+    extract(path)
 
 ```
 
