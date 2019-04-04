@@ -22,8 +22,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parse": "ts-node --max-old-space-size=8192 local.ts",
-    "extract": "ts-node extractor.ts"
+    "parse": "ts-node local.ts",
+    "extract": "ts-node extractor.ts",
+    "ipc-server": "ts-node ipcsupport.ts localhost 7890"
   },
   "author": "",
   "license": "ISC"

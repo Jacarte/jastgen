@@ -57,7 +57,7 @@ function extract(path){
     
                     const stringi = JSON.stringify(tree)
     
-    
+                    //fs.writeFileSync(`${file}.tree`,stringi);
     
                     // Big jsons !!!
                     const out = fs.openSync(`${file}.tree`, 'w')
@@ -68,7 +68,7 @@ function extract(path){
                     while(read <= stringi.length){
             
                         process.stdout.write(`${read} ${stringi.length} ${read/stringi.length*100}% ${file}\r`)
-                        const piece = stringi.substr(read, read + size)
+                        const piece = stringi.substr(read, size)
     
                         fs.writeSync(out, piece);
     
@@ -77,6 +77,7 @@ function extract(path){
     
                     process.stdout.write(`\n`)
                     fs.closeSync(out);
+                    
     
                 }
                 else{
