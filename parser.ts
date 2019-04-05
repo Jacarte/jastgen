@@ -40,7 +40,7 @@ class Translator{
                 
         }
         
-        node.text = `$value`;
+        node.text = `${value}`;
     }
 
     public validateTree(tree: ITree, print: boolean = false, raiseOnFault: boolean = false): boolean{
