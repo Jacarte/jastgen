@@ -26,7 +26,7 @@ interface ITree{
 
 
 
-- Create a file (local.ts) 
+- local.ts file
   
   ```js
     //Typescript
@@ -35,9 +35,9 @@ interface ITree{
 
     const path = 'YOUR_REPOSITORIES_PATH'
 
-    extract(path)
+    extract(process.argv[2])
     ```
 - Run the script
   ```sh
-  npm run parse
+  npm run parse <JS_FILE_PATH>
   ```
