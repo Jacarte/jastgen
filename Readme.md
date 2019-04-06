@@ -30,12 +30,12 @@ interface ITree{
     //Typescript
 
     import extract from './extractor'
-    
+
     extract(process.argv[2])
     ```
 - Run the script
   ```sh
-  npm run parse <JS_FILE_PATH>
+  npm run parse <PATH>
   ```
 
 ## Output example
